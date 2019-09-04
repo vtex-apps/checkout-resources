@@ -1,0 +1,7 @@
+# import '../fragments/orderForm.graphql'
+
+query orderForm {
+  orderForm {
+    ...OrderFormFragment
+  }
+}
