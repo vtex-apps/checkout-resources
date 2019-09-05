@@ -1,0 +1,32 @@
+fragment OrderFormFragment on OrderForm {
+  items {
+    additionalInfo {
+      brandName
+    }
+    detailUrl
+    id
+    imageUrl
+    listPrice
+    measurementUnit
+    name
+    price
+    productId
+    quantity
+    sellingPrice
+    skuName
+    skuSpecifications {
+      fieldName
+      fieldValues
+    }
+    uniqueId
+  }
+  marketingData {
+    coupon
+  }
+  totalizers {
+    id
+    name
+    value
+  }
+  value
+}
