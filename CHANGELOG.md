@@ -7,9 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- `availability` field to `OrderFormFragment`.
+
 ## [0.1.0] - 2019-09-05
 
-## Added
+### Added
 
 - Query: `orderForm`.
 - Mutations: `insertCoupon`, `updateItem`.

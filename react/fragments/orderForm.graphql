@@ -3,6 +3,7 @@ fragment OrderFormFragment on OrderForm {
     additionalInfo {
       brandName
     }
+    availability
     detailUrl
     id
     imageUrl
