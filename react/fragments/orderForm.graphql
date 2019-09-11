@@ -23,6 +23,9 @@ fragment OrderFormFragment on OrderForm {
   }
   marketingData {
     coupon
+    message {
+      code
+    }
   }
   totalizers {
     id
