@@ -1,0 +1,7 @@
+# import '../fragments/orderForm.graphql'
+
+mutation estimateShipping($addressInput: AddressInput) {
+  estimateShipping(addressInput: $addressInput) {
+    ...OrderFormFragment
+  }
+}
