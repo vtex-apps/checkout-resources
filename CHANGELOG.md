@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## Added
+
+- `messages` field with `couponMessages` to `OrderFormFragment`
+
 ## [0.3.0] - 2019-09-11
 
 ## Added
