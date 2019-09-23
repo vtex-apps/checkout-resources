@@ -33,6 +33,11 @@ fragment OrderFormFragment on OrderForm {
     couponMessages {
       code
     }
+    generalMessages {
+      code
+      text
+      status
+    }
   }
   value
 }

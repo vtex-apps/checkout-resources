@@ -7,17 +7,21 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- `generalMessages` field to `OrderFormFragment`'s `messages` field.
+
 ## [0.4.0] - 2019-09-13
 
 ## Added
 
-- `messages` field with `couponMessages` to `OrderFormFragment`
+- `messages` field with `couponMessages` to `OrderFormFragment`.
 
 ## [0.3.0] - 2019-09-11
 
 ## Added
 
-- MarketingData's message
+- MarketingData's message.
 
 ## [0.2.0] - 2019-09-05
 
