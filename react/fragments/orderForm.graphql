@@ -29,6 +29,37 @@ fragment OrderFormFragment on OrderForm {
     name
     value
   }
+  shipping {
+    countries
+    availableAddresses {
+      addressId
+      addressType
+      city
+      complement
+      country
+      neighborhood
+      number
+      postalCode
+      receiverName
+      reference
+      state
+      street
+    }
+    selectedAddress {
+      addressId
+      addressType
+      city
+      complement
+      country
+      neighborhood
+      number
+      postalCode
+      receiverName
+      reference
+      state
+      street
+    }
+  }
   messages {
     couponMessages {
       code
