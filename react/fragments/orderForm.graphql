@@ -1,3 +1,5 @@
+#import './address.graphql'
+
 fragment OrderFormFragment on OrderForm {
   items {
     additionalInfo {
@@ -28,6 +30,15 @@ fragment OrderFormFragment on OrderForm {
     id
     name
     value
+  }
+  shipping {
+    countries
+    availableAddresses {
+      ...Address
+    }
+    selectedAddress {
+      ...Address
+    }
   }
   messages {
     couponMessages {

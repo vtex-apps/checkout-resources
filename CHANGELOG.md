@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## Added
+
+- `Address` fragment to `OrderForm`.
+
+## Added
+
+- Shipping info to `OrderForm` fragment.
+- `EstimateShipping` mutation.
+
 ## [0.5.0] - 2019-09-23
 
 ### Added
