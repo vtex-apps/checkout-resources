@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## Added
+
+- `DeliveryOptions` field to `OrderFormFragment`.
+
 ## [0.7.0] - 2019-09-24
 
 ## Added
