@@ -39,6 +39,12 @@ fragment OrderFormFragment on OrderForm {
     selectedAddress {
       ...Address
     }
+    deliveryOptions {
+      id
+      price
+      estimate
+      isSelected
+    }
   }
   messages {
     couponMessages {
