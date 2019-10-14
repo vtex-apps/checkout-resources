@@ -7,25 +7,29 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- `addToCart` mutation.
+
 ## [0.8.0] - 2019-10-10
 
-## Added
+### Added
 
 - `DeliveryOptions` field to `OrderFormFragment`.
 
 ## [0.7.0] - 2019-09-24
 
-## Added
+### Added
 
 - `SelectDeliveryOption` mutation.
 
 ## [0.6.0] - 2019-09-24
 
-## Added
+### Added
 
 - `Address` fragment to `OrderForm`.
 
-## Added
+### Added
 
 - Shipping info to `OrderForm` fragment.
 - `EstimateShipping` mutation.
@@ -38,13 +42,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [0.4.0] - 2019-09-13
 
-## Added
+### Added
 
 - `messages` field with `couponMessages` to `OrderFormFragment`.
 
 ## [0.3.0] - 2019-09-11
 
-## Added
+### Added
 
 - MarketingData's message.
 
