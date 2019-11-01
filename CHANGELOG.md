@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.10.0] - 2019-11-01
+
 ### Changed
 
 - `imageUrl` was replaced by `imageUrls`, which contain URLs to images with 1x, 2x and 3x resolutions.
