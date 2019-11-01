@@ -8,7 +8,11 @@ fragment OrderFormFragment on OrderForm {
     availability
     detailUrl
     id
-    imageUrl
+    imageUrls {
+      at1x
+      at2x
+      at3x
+    }
     listPrice
     measurementUnit
     name
