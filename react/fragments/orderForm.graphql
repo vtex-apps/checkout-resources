@@ -5,6 +5,29 @@ fragment OrderFormFragment on OrderForm {
     additionalInfo {
       brandName
     }
+    parentAssemblyBinding
+    sellingPriceWithAssemblies
+    options {
+      assemblyId
+      id
+      quantity
+      seller
+      inputValues
+      options {
+        assemblyId
+        id
+        quantity
+        seller
+        inputValues
+        options {
+          assemblyId
+          id
+          quantity
+          seller
+          inputValues
+        }
+      }
+    }
     availability
     detailUrl
     id
