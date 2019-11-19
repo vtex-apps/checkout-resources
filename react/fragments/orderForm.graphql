@@ -40,6 +40,9 @@ fragment OrderFormFragment on OrderForm {
     measurementUnit
     name
     price
+    productCategories
+    productCategoryIds
+    productRefId
     productId
     quantity
     sellingPrice
