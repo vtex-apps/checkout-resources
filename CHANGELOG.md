@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- `productCategories`, `productCategoryIds` and `productRefId` attributes to `orderForm` query.
+
 ## [0.11.0] - 2019-11-05
 
 ### Added
