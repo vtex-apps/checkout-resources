@@ -11,7 +11,8 @@
   },
   "mustUpdateAt": "2019-04-02",
   "dependencies": {
-    "vtex.checkout-graphql": "0.x"
+    "vtex.checkout-graphql": "0.x",
+    "vtex.apps-graphql": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
