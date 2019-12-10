@@ -53,6 +53,7 @@ fragment OrderFormFragment on OrderForm {
     }
     uniqueId
   }
+  canEditData
   marketingData {
     coupon
   }
