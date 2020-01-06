@@ -16,10 +16,10 @@ export const useCheckoutURL = () => {
   })
 
   const version = data?.installedApp?.version
+  const major = version && parseInt(version.split('.')[0])
+
   return {
-    url:
-      version && parseInt(version.split('.')[0]) > 0
-        ? CHECKOUT_URL.V1
-        : CHECKOUT_URL.V0,
+    url: major > 0 ? CHECKOUT_URL.V1 : CHECKOUT_URL.V0,
+    major,
   }
 }
