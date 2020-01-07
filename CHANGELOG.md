@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+- Checkout's major version to `useCheckoutURL`.
+
 ## [0.14.2] - 2020-01-02
 ### Changed
 - Entrypoint file extensions from `.js` to `.tsx` so their types can be exported.
