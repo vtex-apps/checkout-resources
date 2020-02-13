@@ -1,0 +1,5 @@
+mutation SavePaymentToken($paymentTokens: [PaymentToken]) {
+  savePaymentToken(paymentTokens: $paymentTokens) {
+    status
+  }
+}
