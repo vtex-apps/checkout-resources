@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- Separate entrypoints for each query and mutation.
+
 ## [0.17.0] - 2020-02-13
 
 ### Added

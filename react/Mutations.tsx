@@ -1,3 +1,6 @@
+/** DEPRECATED, being kept just for retrocompatibility.
+ * Create individual entry points for each mutation instead */
+
 import addToCart from './mutations/addToCart.graphql'
 import estimateShipping from './mutations/estimateShipping.graphql'
 import insertCoupon from './mutations/insertCoupon.graphql'
