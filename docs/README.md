@@ -5,17 +5,14 @@ Centralizes all GraphQL operations used in Checkout IO, as well as some utility 
 ## Usage
 
 ```ts
-import { orderForm } from 'vtex.checkout-resources/Queries'
-import { updateItem } from 'vtex.checkout-resources/Mutations'
+import OrderFormQuery from 'vtex.checkout-resources/QueryOrderForm'
+import UpdateItemMutation from 'vtex.checkout-resources/MutationUpdateItem'
 
-const MyComponent: FunctionComponent = () => {
-  // ...
+const MyComponent: React.FC = () => {
+    const { data } = useQuery(OrderFormQuery)
+    const [updateItem] = useMutation(UpdateItemMutation)
+    // ...
 }
-
-export default compose(
-  graphql(updateItem),
-  graphql(orderForm)
-)(MyComponent)
 ```
 
 ## Utility functions
