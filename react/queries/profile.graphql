@@ -3,6 +3,15 @@ query ProfileQuery($email: String!) {
     userProfileId
     profileProvider
     availableAccounts
-    availableAddresses
+    availableAddresses {
+      addressId
+      addressType
+      city
+      complement
+      country
+      geoCoordinates
+      neighborhood
+      number
+    }
   }
 }
