@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- New query for `checkoutProfile`.
+
 ## [0.18.0] - 2020-02-17
 
 ### Added
