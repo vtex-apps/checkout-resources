@@ -1,0 +1,17 @@
+query ProfileQuery($email: String!) {
+  checkoutProfile(email: $email) {
+    userProfileId
+    profileProvider
+    availableAccounts
+    availableAddresses {
+      addressId
+      addressType
+      city
+      complement
+      country
+      geoCoordinates
+      neighborhood
+      number
+    }
+  }
+}
