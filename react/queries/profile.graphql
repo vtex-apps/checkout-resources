@@ -3,6 +3,23 @@ query ProfileQuery($email: String!) {
     userProfileId
     profileProvider
     availableAccounts
+    userProfile {
+      email
+      firstName
+      lastName
+      document
+      documentType
+      phone
+      corporateName
+      tradeName
+      corporateDocument
+      stateInscription
+      corporatePhone
+      isCorporate
+      profileCompleteOnLoading
+      profileErrorOnLoading
+      customerClass
+    }
     availableAddresses {
       addressId
       addressType
