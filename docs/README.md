@@ -34,3 +34,8 @@ const MyComponent: FunctionComponent = () => {
   return <a href={url}>Go to cart</a>
 }
 ```
+
+
+**Upcoming documentation:**
+
+ - [Update saveCards mutation](https://github.com/vtex-apps/checkout-resources/pull/26)
