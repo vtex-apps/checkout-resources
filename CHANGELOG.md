@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- New query for `updateOrderFormProfile` mutation.
+
+### Changed
+
+- Added `userProfile` fields to `checkoutProfile` query.
+
 ## [0.19.0] - 2020-02-28
 
 ### Added
