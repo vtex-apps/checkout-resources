@@ -3,8 +3,10 @@ mutation SaveCards(
   $cardSessionId: String!
 ) {
   saveCards(paymentData: $paymentData, cardSessionId: $cardSessionId) {
-    paymentTokens {
-      creditCardToken
+    tokenizedCards {
+      token
+      bin
+      lastDigits
       paymentSystem
     }
   }
