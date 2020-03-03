@@ -1,12 +1,7 @@
+# import '../fragments/orderForm.graphql'
+
 mutation UpdateOrderFormProfile($email: String!) {
   updateOrderFormProfile(email: $email) {
-    clientProfileData {
-      email
-      firstName
-      lastName
-      document
-      documentType
-      phone
-    }
+    ...OrderForm
   }
 }
