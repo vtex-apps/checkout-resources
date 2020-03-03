@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+
+- `gateway-graphql` to version `1.x`.
+
 ## [0.20.2] - 2020-03-03
 
 ### Added
