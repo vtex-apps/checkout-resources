@@ -1,6 +1,6 @@
 {
   "name": "vtex.checkout-resources",
-  "version": "0.20.1",
+  "version": "0.20.2",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
