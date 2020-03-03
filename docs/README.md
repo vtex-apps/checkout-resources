@@ -39,3 +39,4 @@ const MyComponent: FunctionComponent = () => {
 **Upcoming documentation:**
 
  - [Update saveCards mutation](https://github.com/vtex-apps/checkout-resources/pull/26)
+ - [Update version of gateway-graphql](https://github.com/vtex-apps/checkout-resources/pull/29)
