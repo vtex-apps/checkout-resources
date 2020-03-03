@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- Fields for `clientProfileData` in `OrderForm` fragment.
+
+### Changed
+
+- Update return value of the `updateOrderFormProfile` mutation to use the `OrderForm` fragment.
+
 ## [0.20.1] - 2020-03-03
 
 ### Changed

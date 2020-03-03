@@ -78,6 +78,14 @@ fragment OrderFormFragment on OrderForm {
       isSelected
     }
   }
+  clientProfileData {
+    email
+    firstName
+    lastName
+    document
+    documentType
+    phone
+  }
   messages {
     couponMessages {
       code
