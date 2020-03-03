@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 
 - Return `tokenizedCards` from `saveCards` mutation
+- Update query and mutation files to typescript.
 
 ## [0.20.0] - 2020-03-02
 
