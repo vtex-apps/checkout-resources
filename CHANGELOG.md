@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.20.4] - 2020-03-04
+
 ### Changed
 
 - Update `updateOrderFormProfile` mutation variables to match new signature.
