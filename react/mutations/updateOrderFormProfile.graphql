@@ -1,7 +1,7 @@
 # import '../fragments/orderForm.graphql'
 
-mutation UpdateOrderFormProfile($email: String!) {
-  updateOrderFormProfile(email: $email) {
-    ...OrderForm
+mutation UpdateOrderFormProfile($profile: UserProfileInput!) {
+  updateOrderFormProfile(input: $profile) {
+    ...OrderFormFragment
   }
 }
