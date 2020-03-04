@@ -5003,13 +5003,17 @@ verror@1.10.0:
   version "2.5.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.apps-graphql@2.5.0/public/@types/vtex.apps-graphql#be1baf4e27525a942882e09b98ffbceeef20dcbd"
 
-"vtex.checkout-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-graphql@0.22.0/public/@types/vtex.checkout-graphql":
-  version "0.22.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-graphql@0.22.0/public/@types/vtex.checkout-graphql#8431798aa058506b3a67a50b14e0a836400abf4b"
+"vtex.checkout-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-graphql@0.24.1/public/@types/vtex.checkout-graphql":
+  version "0.24.1"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-graphql@0.24.1/public/@types/vtex.checkout-graphql#e970aec45ec8062587fc7d1ad73a6b93ab2ea26a"
 
-"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.90.5/public/@types/vtex.render-runtime":
-  version "8.90.5"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.90.5/public/@types/vtex.render-runtime#465f09d3beeae5af81e64a0b84d39af05aefbb66"
+"vtex.gateway-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.gateway-graphql@1.0.0/public/@types/vtex.gateway-graphql":
+  version "1.0.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.gateway-graphql@1.0.0/public/@types/vtex.gateway-graphql#ce0ac5080c24ff251a1db63eb631dc1fc368636b"
+
+"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.94.0/public/@types/vtex.render-runtime":
+  version "8.94.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.94.0/public/@types/vtex.render-runtime#e79eb9a66801476b66e7ed354a83a7ff1f1c72c7"
 
 w3c-hr-time@^1.0.1:
   version "1.0.1"
