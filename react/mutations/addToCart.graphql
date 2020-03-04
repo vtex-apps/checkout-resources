@@ -1,7 +1,7 @@
 # import '../fragments/orderForm.graphql'
 
-mutation addToCart($items: [ItemInput]) {
-  addToCart(items: $items) {
+mutation addToCart($items: [ItemInput], $marketingData: MarketingDataInput) {
+  addToCart(items: $items, marketingData: $marketingData) {
     ...OrderFormFragment
   }
 }
