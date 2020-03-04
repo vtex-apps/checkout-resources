@@ -57,6 +57,12 @@ fragment OrderFormFragment on OrderForm {
   canEditData
   marketingData {
     coupon
+    utmCampaign
+    utmMedium
+    utmSource
+    utmiCampaign
+    utmiPart
+    utmipage
   }
   totalizers {
     id
