@@ -2,6 +2,6 @@
 
 mutation UpdateOrderFormProfile($profile: UserProfileInput!) {
   updateOrderFormProfile(input: $profile) {
-    ...OrderForm
+    ...OrderFormFragment
   }
 }
