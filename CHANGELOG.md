@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- Query for all fields in MarketingData type.
+
 ## [0.20.4] - 2020-03-04
 
 ### Changed
