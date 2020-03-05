@@ -62,7 +62,7 @@ fragment OrderFormFragment on OrderForm {
     utmSource
     utmiCampaign
     utmiPart
-    utmipage
+    utmiPage
   }
   totalizers {
     id
