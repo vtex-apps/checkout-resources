@@ -84,6 +84,30 @@ fragment OrderFormFragment on OrderForm {
       isSelected
     }
   }
+  paymentData {
+    paymentSystems {
+      id
+      name
+      groupName
+      validator {
+        regex
+        mask
+        cardCodeRegex
+        cardCodeMask
+        weights
+        useCvv
+        useExpirationDate
+        useCardHolderName
+        useBillingAddress
+      }
+      stringId
+      requiresDocument
+      isCustom
+      description
+      requiresAuthentication
+      dueDate
+    }
+  }
   clientProfileData {
     email
     firstName
