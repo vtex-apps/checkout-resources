@@ -119,7 +119,7 @@ fragment OrderFormFragment on OrderForm {
   }
   clientPreferencesData {
     locale
-    optinNewsLetter
+    optInNewsletter
   }
   messages {
     couponMessages {
