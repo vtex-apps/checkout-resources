@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- Mutation resource to update the client preferences data.
+
 ## [0.23.0] - 2020-03-18
 
 ### Added

@@ -117,6 +117,10 @@ fragment OrderFormFragment on OrderForm {
     documentType
     phone
   }
+  clientPreferencesData {
+    locale
+    optInNewsletter
+  }
   messages {
     couponMessages {
       code
