@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+- Field `userType` to `OrderFormFragment`.
+
 ## [0.24.0] - 2020-03-20
 
 ### Added
