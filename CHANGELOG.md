@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 ### Added
-- Add `refId` to the `orderForm` query.
+- `refId` to the `orderForm` query.
 
 ## [0.25.0] - 2020-03-24
 
