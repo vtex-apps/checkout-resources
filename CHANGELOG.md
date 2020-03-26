@@ -7,8 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [0.26.0] - 2020-03-25
 ### Added
+
+- `setCheckoutCookie` argument to `orderForm` query.
+
+## [0.26.0] - 2020-03-25
+
+### Added
+
 - `refId` to the `orderForm` query.
 
 ## [0.25.0] - 2020-03-24
