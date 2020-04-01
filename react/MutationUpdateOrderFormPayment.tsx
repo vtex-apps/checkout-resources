@@ -1,0 +1,3 @@
+import updateOrderFormPaymentMutation from './mutations/updateOrderFormPayment.graphql'
+
+export default updateOrderFormPaymentMutation
