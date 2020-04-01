@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- Mutation resource to update the payment data.
+- Fields `installmentOptions` and `payments` to `OrderFormFragment`.
+
 ## [0.26.0] - 2020-03-25
 ### Added
 - `refId` to the `orderForm` query.
