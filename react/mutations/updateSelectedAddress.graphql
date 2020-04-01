@@ -1,0 +1,7 @@
+# import '../fragments/orderForm.graphql'
+
+mutation UpdateSelectedAddress($address: AddressInput!) {
+  updateSelectedAddress(input: $address) {
+    ...OrderFormFragment
+  }
+}
