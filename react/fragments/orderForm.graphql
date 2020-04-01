@@ -130,7 +130,6 @@ fragment OrderFormFragment on OrderForm {
       }
     }
   }
-
   clientProfileData {
     email
     firstName
