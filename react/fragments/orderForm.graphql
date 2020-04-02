@@ -110,6 +110,25 @@ fragment OrderFormFragment on OrderForm {
       requiresAuthentication
       dueDate
     }
+    payments {
+      paymentSystem
+      bin
+      accountId
+      tokenId
+      installments
+      referenceValue
+      value
+    }
+    installmentOptions {
+      paymentSystem
+      installments {
+        count
+        hasInterestRate
+        interestRate
+        value
+        total
+      }
+    }
   }
   clientProfileData {
     email
