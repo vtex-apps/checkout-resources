@@ -129,6 +129,13 @@ fragment OrderFormFragment on OrderForm {
         total
       }
     }
+    availableAccounts {
+      accountId
+      paymentSystem
+      paymentSystemName
+      cardNumber
+      bin
+    }
   }
   clientProfileData {
     email
