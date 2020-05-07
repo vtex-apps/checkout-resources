@@ -52,6 +52,7 @@ fragment OrderFormFragment on OrderForm {
       fieldName
       fieldValues
     }
+    unitMultiplier
     uniqueId
     refId
   }
