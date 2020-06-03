@@ -2,7 +2,13 @@ query ProfileQuery($email: String!) {
   checkoutProfile(email: $email) {
     userProfileId
     profileProvider
-    availableAccounts
+    availableAccounts {
+      accountId
+      paymentSystem
+      paymentSystemName
+      cardNumber
+      bin
+    }
     userProfile {
       email
       firstName
