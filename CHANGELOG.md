@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 ### Added
 - Field `loggedIn` to `OrderFormFragment` fragment.
+- Field `isDisposable` to `Address` fragment.
 
 ## [0.31.0] - 2020-07-07
 ### Added
