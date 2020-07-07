@@ -87,6 +87,7 @@ fragment OrderFormFragment on OrderForm {
       estimate
       isSelected
     }
+    isValid
   }
   paymentData {
     paymentSystems {
@@ -137,6 +138,7 @@ fragment OrderFormFragment on OrderForm {
       cardNumber
       bin
     }
+    isValid
   }
   clientProfileData {
     email
@@ -145,6 +147,7 @@ fragment OrderFormFragment on OrderForm {
     document
     documentType
     phone
+    isValid
   }
   clientPreferencesData {
     locale
