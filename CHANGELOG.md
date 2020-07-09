@@ -6,6 +6,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Added
+- Field `loggedIn` to `OrderFormFragment` fragment.
+- Field `isDisposable` to `Address` fragment.
 
 ## [0.31.0] - 2020-07-07
 ### Added

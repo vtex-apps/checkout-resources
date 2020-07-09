@@ -57,6 +57,7 @@ fragment OrderFormFragment on OrderForm {
     refId
   }
   canEditData
+  loggedIn
   userProfileId
   userType
   marketingData {

@@ -11,4 +11,5 @@ fragment Address on Address {
   reference
   state
   street
+  isDisposable
 }
