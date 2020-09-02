@@ -46,6 +46,7 @@ fragment OrderFormFragment on OrderForm {
     productRefId
     productId
     quantity
+    seller
     sellingPrice
     skuName
     skuSpecifications {
