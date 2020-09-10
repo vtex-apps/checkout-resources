@@ -1,0 +1,7 @@
+# import '../fragments/orderForm.graphql'
+
+mutation SetManualPrice($manualPriceInput: ManualPriceInput) {
+  setManualPrice(input: $manualPriceInput) {
+    ...OrderFormFragment
+  }
+}

@@ -115,4 +115,5 @@ fragment OrderFormFragment on OrderForm {
     }
   }
   value
+  allowManualPrice
 }
