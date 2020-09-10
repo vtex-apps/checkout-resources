@@ -1,61 +1,10 @@
 #import './address.graphql'
+#import './item.graphql'
 
 fragment OrderFormFragment on OrderForm {
   id
   items {
-    additionalInfo {
-      brandName
-    }
-    parentAssemblyBinding
-    sellingPriceWithAssemblies
-    options {
-      assemblyId
-      id
-      quantity
-      seller
-      inputValues
-      options {
-        assemblyId
-        id
-        quantity
-        seller
-        inputValues
-        options {
-          assemblyId
-          id
-          quantity
-          seller
-          inputValues
-        }
-      }
-    }
-    availability
-    detailUrl
-    id
-    imageUrls {
-      at1x
-      at2x
-      at3x
-    }
-    listPrice
-    measurementUnit
-    name
-    price
-    productCategories
-    productCategoryIds
-    productRefId
-    productId
-    quantity
-    seller
-    sellingPrice
-    skuName
-    skuSpecifications {
-      fieldName
-      fieldValues
-    }
-    unitMultiplier
-    uniqueId
-    refId
+    ...ItemFragment
   }
   canEditData
   loggedIn

@@ -1,0 +1,52 @@
+fragment BundleItemFragment on Item {
+  additionalInfo {
+    brandName
+  }
+  attachments {
+    name
+    content
+  }
+  attachmentOfferings {
+    name
+    required
+    schema
+  }
+  availability
+  detailUrl
+  id
+  imageUrls {
+    at1x
+    at2x
+    at3x
+  }
+  listPrice
+  measurementUnit
+  name
+  offerings {
+    id
+    name
+    price
+    type
+    attachmentOfferings {
+      name
+      required
+      schema
+    }
+  }
+  price
+  productCategories
+  productCategoryIds
+  productRefId
+  productId
+  quantity
+  seller
+  sellingPrice
+  skuName
+  skuSpecifications {
+    fieldName
+    fieldValues
+  }
+  unitMultiplier
+  uniqueId
+  refId
+}
