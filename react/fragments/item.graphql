@@ -48,6 +48,7 @@ fragment ItemFragment on Item {
     at3x
   }
   listPrice
+  manualPrice
   measurementUnit
   name
   offerings {
