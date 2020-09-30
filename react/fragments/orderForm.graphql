@@ -38,6 +38,16 @@ fragment OrderFormFragment on OrderForm {
       estimate
       isSelected
     }
+    pickupOptions {
+      id
+      price
+      estimate
+      isSelected
+      friendlyName
+      additionalInfo
+      storeDistance
+      transitTime
+    }
     isValid
   }
   paymentData {
