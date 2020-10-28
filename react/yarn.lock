@@ -4888,10 +4888,10 @@ type-check@~0.3.2:
   dependencies:
     prelude-ls "~1.1.2"
 
-typescript@3.8.3:
-  version "3.8.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.8.3.tgz#409eb8544ea0335711205869ec458ab109ee1061"
-  integrity sha512-MYlEfn5VrLNsgudQTVJeNaQFUAI7DkhnOjdpAp4T+ku1TfQClewlbSuTVHiA+8skNBgaf02TL/kLOvig4y3G8w==
+typescript@3.9.7:
+  version "3.9.7"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
+  integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
 
 typescript@^3.7.3:
   version "3.7.3"
@@ -5008,17 +5008,17 @@ verror@1.10.0:
   version "2.5.1"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.apps-graphql@2.5.1/public/@types/vtex.apps-graphql#3c5789b5877e6b6a3d9c4cac35a80f2c3bb8b5fe"
 
-"vtex.checkout-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-graphql@0.39.1/public/@types/vtex.checkout-graphql":
-  version "0.39.1"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-graphql@0.39.1/public/@types/vtex.checkout-graphql#edc2680047d4198edad0e3c7dbc6f5e4cb23c03d"
+"vtex.checkout-graphql@https://brenovtex--sandboxusdev.myvtex.com/_v/private/typings/linked/v1/vtex.checkout-graphql@0.45.0+build1603912668/public/@types/vtex.checkout-graphql":
+  version "0.45.0"
+  resolved "https://brenovtex--sandboxusdev.myvtex.com/_v/private/typings/linked/v1/vtex.checkout-graphql@0.45.0+build1603912668/public/@types/vtex.checkout-graphql#d9be579bd5b3cae6aec32b39acb065a39e3239a5"
 
 "vtex.gateway-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.gateway-graphql@1.0.0/public/@types/vtex.gateway-graphql":
   version "1.0.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.gateway-graphql@1.0.0/public/@types/vtex.gateway-graphql#ce0ac5080c24ff251a1db63eb631dc1fc368636b"
 
-"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.121.0/public/@types/vtex.render-runtime":
-  version "8.121.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.121.0/public/@types/vtex.render-runtime#2d5cfba8888df1844a808828b87e5331ab5baa59"
+"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.124.2/public/@types/vtex.render-runtime":
+  version "8.124.2"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.124.2/public/@types/vtex.render-runtime#d535e94b7f0a1fe69c79a2cb107f8c4a227a8b79"
 
 w3c-hr-time@^1.0.1:
   version "1.0.1"

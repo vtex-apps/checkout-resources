@@ -16,6 +16,7 @@ fragment ItemFragment on Item {
   bundleItems {
     ...BundleItemFragment
   }
+  parentItemIndex
   parentAssemblyBinding
   sellingPriceWithAssemblies
   options {
