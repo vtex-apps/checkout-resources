@@ -78,4 +78,18 @@ fragment ItemFragment on Item {
   unitMultiplier
   uniqueId
   refId
+  priceTags {
+    identifier
+    isPercentual
+    rawValue
+    value
+    name
+    ratesAndBenefitsIdentifier {
+      description
+      id
+      featured
+      name
+      matchedParameters
+    }
+  }
 }
