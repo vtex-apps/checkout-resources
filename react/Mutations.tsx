@@ -5,6 +5,7 @@ import addToCart from './mutations/addToCart.graphql'
 import estimateShipping from './mutations/estimateShipping.graphql'
 import insertCoupon from './mutations/insertCoupon.graphql'
 import selectDeliveryOption from './mutations/selectDeliveryOption.graphql'
+import selectPickupOption from './mutations/selectPickupOption.graphql'
 import updateItems from './mutations/updateItems.graphql'
 import savePaymentToken from './mutations/savePaymentToken.graphql'
 import saveCards from './mutations/saveCards.graphql'
@@ -15,6 +16,7 @@ export default {
   estimateShipping,
   insertCoupon,
   selectDeliveryOption,
+  selectPickupOption,
   updateItems,
   savePaymentToken,
   saveCards,
