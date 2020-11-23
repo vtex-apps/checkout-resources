@@ -10,11 +10,9 @@
 
 - [ ] Updated `README.md`.
 - [ ] Updated `CHANGELOG.md`.
-- [ ] Linked this PR to a Clubhouse story (if applicable).
+- [ ] Linked this PR to a Jira story (if applicable).
 - [ ] Updated/created tests (important for bug fixes).
 - [ ] Deleted the workspace after merging this PR (if applicable).
-
-#### Screenshots or example usage
 
 #### Type of changes
 
