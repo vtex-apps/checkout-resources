@@ -1,0 +1,7 @@
+# import '../fragments/orderForm.graphql'
+
+mutation ClearOrderFormMessages($orderFormId: ID!) {
+  clearOrderFormMessages(orderFormId: $orderFormId) {
+    ...OrderFormFragment
+  }
+}
