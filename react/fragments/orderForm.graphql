@@ -34,6 +34,7 @@ fragment OrderFormFragment on OrderForm {
     }
     deliveryOptions {
       id
+      deliveryChannel
       price
       estimate
       isSelected
@@ -43,7 +44,7 @@ fragment OrderFormFragment on OrderForm {
       address {
         ...Address
       }
-      channel
+      deliveryChannel
       price
       estimate
       isSelected
