@@ -1,7 +1,7 @@
 # import '../fragments/orderForm.graphql'
 
 query orderForm {
-  orderForm {
+  orderForm @context(scope: "private") {
     ...OrderFormFragment
   }
 }
