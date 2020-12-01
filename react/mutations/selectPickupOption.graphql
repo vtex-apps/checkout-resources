@@ -1,0 +1,8 @@
+# import '../fragments/orderForm.graphql'
+
+mutation selectPickupOption($pickupOptionId: String) {
+  selectPickupOption(pickupOptionId: $pickupOptionId)
+    @context(provider: "vtex.checkout-graphql") {
+    ...OrderFormFragment
+  }
+}

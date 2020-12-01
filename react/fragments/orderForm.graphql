@@ -34,9 +34,30 @@ fragment OrderFormFragment on OrderForm {
     }
     deliveryOptions {
       id
+      deliveryChannel
       price
       estimate
       isSelected
+    }
+    pickupOptions {
+      id
+      address {
+        ...Address
+      }
+      deliveryChannel
+      price
+      estimate
+      isSelected
+      friendlyName
+      additionalInfo
+      storeDistance
+      transitTime
+      businessHours {
+        dayNumber
+        closed
+        closingTime
+        openingTime
+      }
     }
     isValid
   }
