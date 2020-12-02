@@ -17,6 +17,7 @@ fragment ItemFragment on Item {
     ...BundleItemFragment
   }
   parentAssemblyBinding
+  parentItemIndex
   sellingPriceWithAssemblies
   options {
     assemblyId
