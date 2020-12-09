@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- `marketingTags` field on orderForm fragment to retrieve value throught [vtex.order-manager](https://github.com/vtex-apps/order-manager#orderform-orderform) orderForm context.
+
 ## [0.40.0] - 2020-12-02
 ### Added
 - Field `parentItemIndex` to `OrderFormFragment` fragment.
