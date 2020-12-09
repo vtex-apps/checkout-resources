@@ -18,6 +18,7 @@ fragment OrderFormFragment on OrderForm {
     utmiCampaign
     utmiPart
     utmiPage
+    marketingTags
   }
   totalizers {
     id
