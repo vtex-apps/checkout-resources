@@ -12,4 +12,5 @@ fragment Address on Address {
   state
   street
   isDisposable
+  geoCoordinates
 }
