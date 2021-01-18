@@ -13,7 +13,7 @@
   "dependencies": {
     "vtex.checkout-graphql": "0.x",
     "vtex.gateway-graphql": "1.x",
-    "vtex.apps-graphql": "2.x"
+    "vtex.apps-graphql": "3.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
