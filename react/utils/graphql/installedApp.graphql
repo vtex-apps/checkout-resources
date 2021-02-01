@@ -1,5 +1,5 @@
 query installedApp($slug: String!) {
-  installedApp(slug: $slug) {
+  installedApp: installedAppPublic(slug: $slug) {
     version
   }
 }
