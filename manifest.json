@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "checkout-resources",
-  "version": "0.41.1",
+  "version": "0.41.2",
   "title": "Checkout Resources",
   "description": "Checkout Resources",
   "defaultLocale": "pt-BR",
