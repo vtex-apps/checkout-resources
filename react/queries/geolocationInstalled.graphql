@@ -1,0 +1,5 @@
+query GeolocationInstalled {
+  installedApp: installedAppPublic(slug: "vtex.geolocation-graphql-interface") {
+    source
+  }
+}
