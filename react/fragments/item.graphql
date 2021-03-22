@@ -64,6 +64,13 @@ fragment ItemFragment on Item {
     }
   }
   price
+  priceTags {
+    identifier
+    isPercentual
+    name
+    rawValue
+    value
+  }
   productCategories
   productCategoryIds
   productRefId
