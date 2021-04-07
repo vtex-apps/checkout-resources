@@ -100,4 +100,5 @@ fragment ItemFragment on Item {
       matchedParameters
     }
   }
+  isGift
 }
