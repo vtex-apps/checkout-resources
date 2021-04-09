@@ -10,6 +10,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 - Property `isGift` to `Item` fragment.
 
+## [0.44.0] - 2021-04-05
+
+### Added
+- parameter `allowedOutdatedData` to `addToCart` and `updateItems` mutations
+
 ## [0.43.0] - 2021-03-22
 ### Added
 - Property `priceTags` to `Item` fragment.

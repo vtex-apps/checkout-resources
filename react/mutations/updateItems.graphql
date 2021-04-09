@@ -1,7 +1,13 @@
 # import '../fragments/orderForm.graphql'
 
-mutation updateItems($orderItems: [ItemInput]) {
-  updateItems(orderItems: $orderItems) {
+mutation updateItems(
+  $orderItems: [ItemInput]
+  $allowedOutdatedData: [String!]
+) {
+  updateItems(
+    orderItems: $orderItems
+    allowedOutdatedData: $allowedOutdatedData
+  ) {
     ...OrderFormFragment
   }
 }
