@@ -1,7 +1,8 @@
 # import '../fragments/orderForm.graphql'
 
-query orderForm {
-  orderForm @context(scope: "private") {
+query orderForm($refreshOutdatedData: boolean) {
+  orderForm(refreshOutdatedData: $refreshOutdatedData)
+    @context(scope: "private") {
     ...OrderFormFragment
   }
 }
