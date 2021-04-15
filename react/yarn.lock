@@ -5008,9 +5008,9 @@ verror@1.10.0:
   version "3.12.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.apps-graphql@3.12.0/public/@types/vtex.apps-graphql#1b25f4f88b5b47b93bc302b1735c10b655eb7422"
 
-"vtex.checkout-graphql@https://refresh--checkoutio.myvtex.com/_v/private/typings/linked/v1/vtex.checkout-graphql@0.59.1+build1618435102/public/@types/vtex.checkout-graphql":
-  version "0.59.1"
-  resolved "https://refresh--checkoutio.myvtex.com/_v/private/typings/linked/v1/vtex.checkout-graphql@0.59.1+build1618435102/public/@types/vtex.checkout-graphql#6c44df9ff5c1cb4f611ee9ba60766b87c209a6df"
+"vtex.checkout-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-graphql@0.60.0/public/@types/vtex.checkout-graphql":
+  version "0.60.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-graphql@0.60.0/public/@types/vtex.checkout-graphql#c394d5320883a16a34f77fd54e84d01a5f55c750"
 
 "vtex.checkout-resources@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-resources@0.45.0/public/@types/vtex.checkout-resources":
   version "0.45.0"

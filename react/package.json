@@ -30,7 +30,7 @@
     "apollo-client": "^2.5.1",
     "typescript": "3.9.7",
     "vtex.apps-graphql": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.apps-graphql@3.12.0/public/@types/vtex.apps-graphql",
-    "vtex.checkout-graphql": "https://refresh--checkoutio.myvtex.com/_v/private/typings/linked/v1/vtex.checkout-graphql@0.59.1+build1618435102/public/@types/vtex.checkout-graphql",
+    "vtex.checkout-graphql": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-graphql@0.60.0/public/@types/vtex.checkout-graphql",
     "vtex.checkout-resources": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-resources@0.45.0/public/@types/vtex.checkout-resources",
     "vtex.gateway-graphql": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.gateway-graphql@1.0.0/public/@types/vtex.gateway-graphql",
     "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.128.2/public/@types/vtex.render-runtime"
