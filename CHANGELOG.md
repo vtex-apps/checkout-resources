@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+- `priceDefinition` structure in `item` fragment.
+
 ## [0.46.0] - 2021-04-16
 
 ### Added
