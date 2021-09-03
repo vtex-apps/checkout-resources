@@ -1,0 +1,7 @@
+# import '../fragments/orderForm.graphql'
+
+mutation estimateCarbonFreeShipping {
+  estimateCarbonFreeShipping @context(provider: "vtex.checkout-graphql") {
+    ...OrderFormFragment
+  }
+}

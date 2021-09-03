@@ -37,6 +37,10 @@ fragment OrderFormFragment on OrderForm {
       deliveryChannel
       price
       estimate
+      carbonEstimate {
+        cost
+        carbonKg
+      }
       isSelected
     }
     pickupOptions {
@@ -47,6 +51,10 @@ fragment OrderFormFragment on OrderForm {
       deliveryChannel
       price
       estimate
+      carbonEstimate {
+        cost
+        carbonKg
+      }
       isSelected
       friendlyName
       additionalInfo
