@@ -137,4 +137,11 @@ fragment OrderFormFragment on OrderForm {
   }
   value
   allowManualPrice
+  customData {
+    customApps {
+      fields
+      id
+      major
+    }
+  }
 }
