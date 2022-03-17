@@ -51,6 +51,7 @@ fragment ItemFragment on Item {
   listPrice
   manualPrice
   measurementUnit
+  modalType
   name
   offerings {
     id
