@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+- `modalType` props in `orderForm/item` fragment.
+
 ## [0.48.0] - 2022-01-17
 
 ### Added
