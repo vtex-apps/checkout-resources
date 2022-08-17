@@ -125,6 +125,13 @@ fragment OrderFormFragment on OrderForm {
     locale
     optInNewsletter
   }
+  customData {
+    customApps {
+      fields
+      id
+      major
+    }
+  }
   messages {
     couponMessages {
       code
