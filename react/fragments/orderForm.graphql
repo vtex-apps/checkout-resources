@@ -119,11 +119,26 @@ fragment OrderFormFragment on OrderForm {
     document
     documentType
     phone
+    corporateName
+    corporateDocument
+    corporatePhone
     isValid
   }
   clientPreferencesData {
     locale
     optInNewsletter
+  }
+  storePreferencesData {
+    countryCode
+    currencyCode
+    timeZone
+    currencyFormatInfo {
+      currencyDecimalDigits
+      currencyDecimalSeparator
+      currencyGroupSeparator
+      startsWithCurrencySymbol
+    }
+    currencySymbol
   }
   messages {
     couponMessages {

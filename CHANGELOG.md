@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+- `storePreferencesData` structure in `orderForm` fragment.
+- `corporateName`, `corporateDocument` and `corporatePhone` in  `orderForm` fragment.
+
 ## [0.49.0] - 2022-06-01
 ### Added
 - Accepts Order Form ID via query parameter on orderForm query
