@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: checkout-resources
+  description: Centralizes all GraphQL operations used in Checkout IO
+  annotations:
+    github.com/project-slug: vtex-apps/checkout-resources
+    vtex.com/o11y-os-index: ""
+    vtex.com/janus-acronym: ""
+    grafana/dashboard-selector: ""
+    backstage.io/techdocs-ref: dir:../
+  tags:
+    - typescript
+    - react
+spec:
+  type: library
+  lifecycle: experimental
+  owner: checkout-experience
+  system: checkout
+  dependsOn: []
