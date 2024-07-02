@@ -3,10 +3,12 @@
 mutation updateItems(
   $orderItems: [ItemInput]
   $allowedOutdatedData: [String!]
+  $splitItem: Boolean
 ) {
   updateItems(
     orderItems: $orderItems
     allowedOutdatedData: $allowedOutdatedData
+    splitItem: $splitItem
   ) {
     ...OrderFormFragment
   }
