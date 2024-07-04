@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 ### Added
-- `splitItem` in `updateItems` mudation
+- `splitItem` in `updateItems` mutation
 
 ## [0.49.0] - 2022-06-01
 ### Added
