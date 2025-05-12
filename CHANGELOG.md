@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Changed
+- `orderForm` query now returns `clientProfileData` with corporate fields `isCorporate`, `corporateName`, `tradeName`, `corporateDocument`, `stateInscription`.
 
 ## [0.50.0] - 2024-09-05
 ### Added
