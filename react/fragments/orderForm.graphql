@@ -120,6 +120,11 @@ fragment OrderFormFragment on OrderForm {
     documentType
     phone
     isValid
+    isCorporate
+    corporateName
+    tradeName
+    corporateDocument
+    stateInscription
   }
   clientPreferencesData {
     locale
