@@ -10,6 +10,7 @@ metadata:
     grafana/dashboard-selector: ""
     backstage.io/techdocs-ref: dir:../
     vtex.com/application-id: GDG0VZJS
+    vtex.com/platform-flow-id: Shopper#4
   tags:
     - typescript
     - react
@@ -18,4 +19,5 @@ spec:
   lifecycle: experimental
   owner: te-0001
   system: checkout
-  dependsOn: []
+  dependsOn: 
+    - component:checkout-graphql
