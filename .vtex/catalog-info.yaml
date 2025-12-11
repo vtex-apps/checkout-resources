@@ -19,4 +19,5 @@ spec:
   lifecycle: experimental
   owner: te-0001
   system: checkout
-  dependsOn: []
+  dependsOn: 
+    - component:checkout-graphql
